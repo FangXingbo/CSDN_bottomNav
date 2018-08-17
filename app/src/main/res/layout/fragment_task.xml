@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fxb.realobs.TaskFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/ip"
+    android:hint="IP"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+        <EditText
+            android:layout_below="@+id/ip"
+            android:id="@+id/port"
+            android:hint="端口"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_below="@id/port"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接服务器" />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

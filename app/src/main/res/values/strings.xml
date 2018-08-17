@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">实时监测</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add1">增加</string>
+    <string name="delete">删除</string>
+    <string name="change">修改</string>
+    <string name="search">查询</string>
+    <string name="line">暂未用</string>
+    <string name="bar">双击更新</string>
+</resources>
